@@ -18,5 +18,4 @@ while count > 0:
             break
     count -= number
     current = gamer2 if current == gamer1 else gamer1
-
 print('Выиграл игрок {}'.format(current))
